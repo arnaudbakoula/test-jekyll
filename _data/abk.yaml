@@ -1,0 +1,458 @@
+education:
+  - school: L'Oréal
+    year: 2023
+    programs:
+      – Transition to Team Management
+  - school: L'Oréal
+    year: 2023
+    programs:
+      - ITIL 4 Service Mindset
+  - school: Cloud Academy
+    year: 2021
+    programs:
+      - Certification Google Associate Cloud Engineer
+  - school: Coursera (Online)
+    year: 2018
+    programs:
+      - Google Cloud Platform Big Data and Machine Learning Fundamentals
+      - Serverless Data Analysis with Google BigQuery and Cloud Dataflow
+      - Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform
+      - Building Resilient Streaming Systems on Google Cloud Platform
+      - Google Cloud Platform Fundamentals, Core Infrastructure
+  - school: MongoDB University (Online)
+    year: 2018
+    programs:
+      - M101 : Mongo DB Python & Java developer
+  - school: Coursera
+    year: 2016
+    programs:
+      - Parallel Programming in Scala
+      - Functional Program Design in Scala
+      - Functional Programming Principles in Scala
+  - school: Accenture
+    year: 2011
+    programs:
+      - Global English Education: TOEIC evaluation 930 points
+  - school:
+    year: 2011
+    programs:
+      - Architectures Techniques et Objets Distribuées: Title « Software Architect » level I
+  - school: University Paris Orsay
+    year: 2003
+    programs:
+      - Master (DESS) in Computation in Fluide Dynamics and Heat Transfers
+  - school: University Gustave Eiffel (former UMLV)
+    year: 2002
+    programs:
+      - Master in Physical, Material Sciences
+
+experience:
+  companies:
+    - company: L'Oréal
+      period:
+        from: June 2021
+        to: October 2024
+      roles:
+        - title: Data Services Manager / Product Owner / Software Architect
+      achievements:
+        - Team management & organization (up to 6 teams)
+        - Global documentation templating and definition
+        - Roadmap definition
+        - Definition of ways of working
+        - Product management as a Product Owner
+        - Industrialisation at scale (framework to quick start projects, build automation)
+        - Supervising the Group Data Platform (serving thousands of users)
+        - Build automation in a uniform way to ease handover to support team
+        - Ensuring knowledge transfer to teams during business trips (India, China)
+        - Providing insights of the data usage to see adoption
+        - Support to IT Zones
+
+
+    - company: SFEIR
+      period:
+        from: November 2015
+        to: May 2021
+      roles:
+        - title: Senior Software Engineer / Technical Lead / Software Architect
+        - title: Git Trainer
+          period:
+            from: October 2016
+            to: June 2021
+          achievements:
+            - Formation Git pour des grandes entreprises comme L'Oréal, Orange, Yves Rocher
+            - Développement et implémentation de workflows Git personnalisés pour les organisations
+            - Contribution à l'architecture des plateformes data pour les clients tels que Veolia
+      missions:
+        - client: L'Oréal
+          subtitle: Solution Architect / Senior Software Engineer/ Senior Data Engineer / DevOps Lead
+          context: As a data engineer, tech lead in charge of the DevSecOps in the BTDP Data Factory team..
+          achievements:
+            - Defining Git Policy (Workflow, Best practices, Setup of Github)
+            - Supervising and leading the Continuous integration
+            - Development of the BTDP Portal
+            - Best practices (documentation, code review, refactoring, peer programming, coding style)
+            - unit testing (with a flavour of TDD)
+            - Technical documentation
+            - Training
+          environment:
+            languages: Python, Bash
+            systems: Linux, MacOS
+            tools: Git (Github, Gitlab), GCP (BigQuery, GCS, GCR, GCF, Cloud Sql, GCB, App Engine, Cloud Composer, Cloud Workflows), Confluence, Jira, Jenkins, Docker, Mongo DB, Databricks, Service Now
+          methodology: Scrum
+
+        - client: Veolia
+          subtitle: Lead Data Engineer & Software Architect
+          duration: 17 months
+          period:
+            from: March 2019
+            to: May 2010
+          context: As a data engineer in charge of developing, maintaining and running Veolia’s data lake platform. Data platform is developed on GCP.
+          achievements:
+            - Technical Business Analysis
+            - Development
+            - Best practices (documentation, unit testing (TDD), code review, refactoring, peer programming, coding style)
+            - Technical documentation
+            - Git workflow definition
+            - Continuous integration
+            - 1 week Training at Madrid for Business Units members
+          environment:
+            languages: Python, Bash
+            tools: Google Cloud Platform (BigQuery, GAE, GCS, GCF, Cloud Sql, GCB, Composer, Dataflow), Apache Beam, Apache Airflow, Gitlab, Docker
+          methodology: scrum
+          team: 7 persons
+
+        - client: FM Logistic
+          subtitle: Data Engineer & Devops
+          duration: 6 months
+          period:
+            from: September 2018
+            to: February 2019
+          context: As a data engineer in charge of developing a data platform for FM Logistic which aims is to provide a way help them to mutualise marchandise for their client. Data platform is developed on GCP.
+          achievements:
+            - development
+            - best practices (documentation, code review, refactoring, peer programming, coding style)
+            - git workflow definition
+            - unit testing (with a flavour of TDD)
+            - technical documentation
+            - continuous integration
+          environment:
+            languages: Java, Python
+            tools: Google Cloud Platform (BigQuery, GCS, GCF, Cloud Sql, GCB, Composer, Dataflow), Apache Beam, Apache Airflow, Confluence, Jenkins, Docker
+          methodology: Scrum
+          team: 6 persons
+
+        - client: Fircosoft
+          subtitle: Senior Software Engineer / Technical Lead & DevOps
+          duration: 8 months
+          period:
+            from: January 2018
+            to: August 2018
+          context:  As a senior software engineer and technical leader of a team of 6 persons, in charge of developing the new version of Trust software using Java language for the back side and VueJS for the front side of the application. Aims is to leverage the new version in order to solve secret issues of the previous version.
+          achievements:
+            - application architecture
+            - development
+            - best practices (documentation, code review, refactoring, peer programming, coding style)
+            - scm definition and maintenance (jenkins, gradle, checkstyle, sonarqube)
+            - git workflow definition
+            - platform dockerization to ease application deployment
+            - unit testing (with a flavour of TDD)
+            - technical documentation (templates, etc.)
+            - continuous integration
+          environment:
+            databases: Oracle DB, SQLDeveloper
+            languages: Java (Spring Boot), Javascript (VueJS)
+            systems: Windows 7
+            tools: Eclipse, Gradle, Apache Tomcat, Weblogic, Websphere, Git, BitBucket, Jira, Jenkins, Docker
+          methodology: Scrum
+          team: 7 persons
+    
+        - client: Allianz
+          subtitle: Senior Software Engineer
+          duration: 5 months
+          period:
+            from: August 2017
+            to: December 2017
+          context: In the content of the development and evolution of the e-commerce platform of Allianz Technical Analyst in charge on the following roles.
+          achievements:
+            - Project leading and coordination of various application portfolios
+            - Technical analysis of impacted components
+            - Followup of offshore development (IDC)
+            - Technical recette
+            - Development
+            - General documentation (templates, location)
+            - Components dockerization for microservices
+            - Best practices (unit test, code review, refactoring)
+            - Migration from CVS to Git
+          environment:
+            languages: Java EE, Spring framework
+            systems: Windows
+            tools: IntelliJ, Eclipse, Maven, Tomcat, MySQL, Git, GitLab, Jira, Confluence, Jenkins, Docker, Uml, Elastic search, Apache camel
+          methodology: Scrum
+
+        - client: Fircosoft
+          subtitle: Senior Software Engineer
+          duration: 6 months
+          period:
+            from: February 2017
+            to: July 2017
+          context: As a senior software engineer, in charge of making a POC for the integration of the Spring and Spring MVC framework in a software build on the Struts 1.x framework. Aims is to migrate without a tunnel effect knowing code base is more than 10 years old (Java 1.4) for the delivery on version 5 of the Trust software which aims to detect bank client exposed to legal sanctions.
+          achievements:
+            - Migration from Ant to Gradle build tool
+            - Code modernisation (migration from java 1.4 to java 1.7)
+            - Evolution and Defect resolution and bug fixes
+            - Refactoring by introducing unit tests in the code base with Mockito
+            - Best practices (JavaDoc, code review, refactoring)
+            - Continuous integration
+          environment:
+            databases: Oracle, SQLDeveloper
+            languages: Java (Struts 1.x, Spring framework)
+            systems: Windows
+            tools: Eclipse, Gradle, Tomcat, Weblogic, Websphere, Git, BitBucket, Jira, Jenkins, Docker
+          methodology: Scrum
+          team: 5 persons
+
+        - client: JC Decaux
+          subtitle: Senior Software Engineer
+          duration: 2 months
+          context: In the context of the SmartBrics project, I’ve participated to the development of a system allocating  advertising frames for promotional campaign.
+          achievements:
+            - new features development
+            - defect analysis and resolution
+            - functional tests
+            - best practices (JavaDoc, code review, refactoring, unit tests)
+          environment:
+            languages: Java EE, Spring Boot, Angular JS, JSON
+            systems: Windows XP
+            tools: Eclipse, Tomcat, MySql, Github, Jira
+          methodology: Scrum
+          team: 4 persons
+
+        - client: AG2R La Mondiale
+          subtitle: Senior IT Consultant
+          duration: 14 months
+          context: Rebuilt of IT system managing the retirement pension. Coming to the project rescue since it has taken more time than planned. The goal was, first to help fixing high priority issues to regain trust of the business; second help preparing the go live in production.
+          achievements:
+            - Development of screens (evolution and bug fixes)
+            - Complete refactor of pension simulator based on the specification and the ergonomic requirements
+            - Defect resolution
+            - Architecting Selenium code project for functional test automation
+            - Unit testing
+            - Encouraging code review for improving code quality
+            - Best practices (JavaDoc, code review, refactoring)
+          environment:
+            languages: Java EE, GWT, Spring framework
+            tools: Eclipse, Selenium, TestNG, Websphere, Cvs, Maven, Git, Soap-WS, Bootstrap, Trello
+          methodology: Scrum
+          team: 10 persons
+
+        - client: Informatique CDC
+          subtitle: Senior Software Engineer
+          duration: 3 months
+          context: As a dev ops, I developed Jira modules allowing integration of the method department SSO. Development of a perl script helping to report the usage of the department service over the year to determine the billing of the consumed services.
+          achievements:
+            - Module development
+            - Unit tests
+            - Continuous integration
+          environment:
+            database: MySQL
+            languages: Java EE
+            systems: Windows XP
+            tools: Git, Svn, Jira, Confluence, Archiva, continuum, Maven, Tomcat
+
+
+    # --- working for Kyribas SAS
+    - company: Kyriba SAS
+      period:
+        from: December 2014
+        to: April 2024
+      title: Senior Software Engineer
+      context: In the Financial Transaction in charge of the development of the valuation module of FX Options, in a team of 3 persons
+      achievements:
+        - Development of Valuation screens for processing valuation data
+        - SQL requests writing for managing data persistence
+        - DA referent, management of SQL evolutions
+        - Participate to the improvement and evolution of Kyriba applicative architecture
+        - Sensibilisation de l’équipe aux bonnes pratiques
+        - Continuous integration
+      environment:
+        databases: Oracle
+        languages: Java EE, Scala, XML
+        systems: Linux
+        tools: Eclipse, Intellij, Gradle, Bitbucket, Jira, Confluence, Bamboo, Vagrant
+      methodology: Scrum
+
+
+    # --- working for Ullink
+    - company: Ullink SAS (now Broadridge Trading)
+      period:
+        from: August 2011
+        to: December 2014
+      title: Software Engineer
+      context: I worked as a Software Engineer in the Direct Market Access team (Plugins team) part of the Connectivity division, targeting markets like Eurex, Euronext, CME, LSE, etc.
+      functional:
+        - Trading
+        - Trade reporting (referent)
+        - Market making
+      achievements:
+        - Implementation market access gateways (FIX, native, Web Services based)
+        - Tests unitaires (en partie TDD), tests d’intégration 
+        - Continuous Integration
+        - Evolution and Maintenance of gateways (Technical or Functional migrations)
+        - Gateway certification in collaboration with the targeted market
+        - Defect resolution / Support to Production / Support to Customer Support
+        - Technical & functional documentation 
+        - Project management (Gant)
+        - Internal tools development to enhance productivity
+        - Sensibilisation to documentation good practices
+        - Migration from CVS to Git
+        - Trainee manager for 4 months
+        - Onboarding newcomers
+      environment:
+        langauges: Java SE, C++ (jni), XML, Perl
+        systems: Windows, Linux
+        tools: Eclipse, Ant, Gradle, Cvs, Git, Jira, Confluence, SoapUI, Jenkins, Protocol FIX
+      methodology: Gant, Scrum
+
+
+    # --- working for Blue Consulting
+    - company: Blue Consulting
+      title: Software Engineer
+      period:
+        from: November 2009
+        to: May 2010
+      missions:
+        - client: Natixis
+          subtitle: Software Engineer
+          duration: 6 months
+          context: In the Risk management department of Natixis, I’ve integrated the team in charge of the production of the expositions of the bank (VaR computation) in case of default of its counterparts. 
+          achievements:
+            - Maintenance of the C++ pricing engine
+            - Development of supervision scripts in Perl
+            - Création and maintenance of SQL stored procedure
+            - Working with Business analyst to answer there specific needs for reporting
+            - Follow daily production
+            - Bug resolution
+          environment:
+            databases: Sybase
+            languages: Perl, C++, Sql, xml, xsl/xslt
+            systems: Linux,
+            tools: Svn, Doxygen
+
+
+    # --- working for Adneom
+    - company: Adneom
+      period:
+        from: September 2008
+        to: October 2009
+      missions:
+        - client: Orange R&D
+          subtitle: Software Engineer
+          duration: 7 months
+          context: Design of the GUI of a remote in order to manage a Media Center via UPnP protocol using RPC mechanism. Internationalization, integration of an accessibility module for vocal synthesis and an infra red one.
+          achievements:
+            - Specification application
+            - Design of the application (UML modeling, and OO design patterns)
+            - Unit test (using CPPUnit)
+            - XML format définition to manage both configuration and i18n
+            - Vocal Synthesis
+            - Integration test
+            - Infrared device management
+          environment: C++, Windows Xp/Vista, Linux, Visual C++, Svn, Doxygen
+          methodology: Agile
+
+
+    # --- working for Alten
+    - company: Alten
+      period:
+        from: September 2007
+        to: June 2008
+      roles:
+        - title: IT Consultant in Software Development
+      missions:
+        - client: Alcatel-Lucent
+          subtitle: IT Consultant in Software Development
+          duration: 5 months
+          context: Development of the new version of the access Gateway to a wireless network using the WiiMax standard.
+          achievements:
+            - Write validation scenarios for each system entity
+            - Coding of the scenarios for the validation
+            - System validation
+          environment: C/C++, Linux RedHat Entreprise, Eclipse, Gcc, Gdb, Clearcase, Posix thread
+
+        - client: eServGlobal
+          subtitle: IT Consultant in Software Development
+          duration: 8 months
+          context: In product team in charge of developing modules for a Phone management system in an distributed and multithreaded environment.
+          achievements:
+            - Components specifications
+            - Features addition
+            - Development and unit testing
+            - Documentation, Technical Specifications (general and detailed)
+            - Defect Resolution
+          environment: C++, C, Java, Solaris 8, Linux (Centos 4), Jenkins, Cvs, Doxygen, Umlet, Posix Threads, Unix sockets & message queues
+
+
+    # --- working for Solent
+    - company: Solent
+      period:
+        from: September 2005
+        to: May 2007
+      missions:
+        - client: Messier Bugatti
+          subtitle: IT Consultant in Software Development
+          duration: 6 months
+          context: As a software engineer I’ve developed parts of the Embedded code of the system managing the alerts in the avionics system of the military Airbus aircraft A400M. I also qualified the Embedded code using time differed simulation.
+          achievements:
+            - Development and unit testing in C
+            - definition of an xml format to help generating code from specification
+            - code qualification using storm integration tool
+            - storm modules development in order to qualify the developed code
+            - test reports identifying the observed differences
+            - user support for integration of final target
+          environment:
+            languages: ANSI C, Java, XML
+            systems: Windows xp
+            tools: eclipse, storm, svn, doxygen, protocole afdx
+          methodology: V cycle (norme do178b niveau d)
+    
+        - client: Messier Bugatti
+          subtitle: IT Consultant in Software Development
+          duration: 6 months
+          context: In the context of the certification of the avionics software managing both Steering Control System (SCS) and Braking Control System (BCS) of Airbus A380, I’d participated to the validation and verification of the SCS using a standard Policy know as DO 178B.
+          achievements:
+            - Code validation using differed time simulation
+            - Verification of the Embedded code on real target
+            - Test reports with observed differences
+          environment:
+            systems: Linux RedHat 9, Windows XP, Storm, Doors, protocole afdx, DO 178 level B
+
+        - client: Bouygues Telecom
+          subtitle: IT Consultant in Software Development
+          duration: 5 months
+          context: As a technical lead I’ve developed an SMS Gateway conveying messages from an http server to an SMSC. The developed Gateway aimed to replace an existing one.
+          achievements:
+            - Software’s Design and Specification
+            - Development, unit testing, functional test
+            - Documentation (user’s manual, test plan)
+            - End user training
+            - Production
+          environment:
+            languages: C, XML
+            systems: Windows XP
+            tools: Svn, Doxygen, Curl, FastCGI, Apache, UCP, GSP, HTTP
+
+        - client: Bouygues Telecom
+          subtitle: IT Consultant in Software Development
+          duration: 3 months
+          context: In the context of the development of the information system of Bouygues Telecom Caraïbes, I’ve produced the reporting documents, dashboards, and a UI prototype Under Excel using VBA allowing to produce reports in an interactive fashion.
+          achievements:
+            - End User’s requirements analysis
+            - Create SQL requests
+            - Create data reports in compliance with user’s requirement
+            - Coding and maintaining java servlets used for reports computation          
+          environment:
+            databases: PostgreSQL, PgAdmin3
+            languages: Java, Sql, XML, Vba
+            systems: Windows Xp, Linux
+            tools: Ms Excel, Svn, Apache Cocoon
+          
