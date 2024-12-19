@@ -9,15 +9,18 @@ contact_info:
 form:
   title: Envoyez-moi un message
   fields:
-    - label: Nom
+    - label: Name
+      name: name
       type: text
       placeholder: Votre nom
       required: true
     - label: Email
+      name: email
       type: email
       placeholder: votre.email@example.com
       required: true
     - label: Service
+      name: service
       type: select
       options:
         - Formation Git
@@ -25,7 +28,16 @@ form:
         - Coaching DevOps
         - Autre
     - label: Message
+      name: message
       type: textarea
       placeholder: Votre message
       required: true
-  submit: Envoyer
+  actions:
+    - value: Send Message
+      name: submit
+      type: submit
+      primary: primary
+    - value: Reset
+      name: reset
+      type: reset
+
