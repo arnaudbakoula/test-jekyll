@@ -1,0 +1,31 @@
+title: Contact
+description: N'hésitez pas à me contacter pour toute demande de formation, consultation ou projet.
+
+contact_info:
+  email: arnaud.bakoula@gmail.com
+  phone: "066666666"
+  linkedin: https://www.linkedin.com/in/arnaud-bakoula-b6b19888
+
+form:
+  title: Envoyez-moi un message
+  fields:
+    - label: Nom
+      type: text
+      placeholder: Votre nom
+      required: true
+    - label: Email
+      type: email
+      placeholder: votre.email@example.com
+      required: true
+    - label: Service
+      type: select
+      options:
+        - Formation Git
+        - Architecture Data
+        - Coaching DevOps
+        - Autre
+    - label: Message
+      type: textarea
+      placeholder: Votre message
+      required: true
+  submit: Envoyer
