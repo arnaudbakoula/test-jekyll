@@ -1,7 +1,7 @@
 ---
 layout: "dimension"
 title: Dimension
-permalink: /dimension
+# permalink: /dimension
 var_intro: "dimension/intro.md"
 var_about: "dimension/about.md"
 var_work: "dimension/work.md"
