@@ -1,0 +1,56 @@
+- offer: Oil Massage
+  description: A relaxing moment with a voluptuous touch that will wake up your senses.
+  options:
+    - duration: 30
+      price: 160
+    - duration: 40
+      price: 1800
+    - duration: 60
+      price: 2000
+    - duration: 90
+      price: 2200
+    - duration: 120
+      price: 2500
+
+- offer: Lotion
+  description: Want and delightful experience with various smells, this is for you.
+  options:
+    - duration: 30
+      price: 1800
+    - duration: 40
+      price: 1900
+    - duration: 60
+      price: 2200
+    - duration: 90
+      price: 2300
+    - duration: 120
+      price: 2600
+
+
+- offer: Aroma Massage
+  description: Want and delightful experience with various smells, this is for you.
+  options:
+    - duration: 30
+      price: 1800
+    - duration: 40
+      price: 1900
+    - duration: 60
+      price: 2200
+    - duration: 90
+      price: 2300
+    - duration: 120
+      price: 2600
+
+- offer: Nuru Massage
+  description: Want and delightful experience with various smells, this is for you.
+  options:
+    - duration: 30
+      price: 2000
+    - duration: 40
+      price: 2200
+    - duration: 60
+      price: 2400
+    - duration: 90
+      price: 2600
+    - duration: 120
+      price: 2800

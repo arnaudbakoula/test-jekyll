@@ -66,6 +66,81 @@ header_class: "alt"
 			</section>
 		</div>
 	</div>
+	<section class="box special features">
+		<div class="features-row">
+		{% for service in site.data.alpha.services %}
+			<section>
+				<h3>{{ service.offer }}</h3>
+				<p>{{ service.description }}</p>
+				<!-- <div style="position: center"> -->
+				<ul style="list-style-position: inside; text-align:left; margin-left:30%; margin-right:30%">
+					{% for option in service.options %}
+					<li>{{ option.duration }} minutes at {{ option.price }}</li>
+					{% endfor %}
+				</ul>
+				<!-- </div> -->
+				<hr/>
+				<ul class="actions special">
+					<li><a href="#" class="button alt">Book</a></li>
+				</ul>
+			</section>
+		{% endfor%}
+		</div>
+	</section>
+	<section class="box special">
+		<div class="row">
+		{% for service in site.data.alpha.services %}
+			<div class="col-4 col-12-mobilep">
+				<h3>{{ service.offer }}</h3>
+				<p>{{ service.description }}</p>
+				<div style="text-align:left">
+				<ul>
+					{% for option in service.options %}
+					<li style="text-align:left">{{ option.duration }} minutes at {{ option.price }}</li>
+					{% endfor %}
+				</ul>
+				</div>
+				<hr/>
+				<ul class="actions special">
+					<li><a href="#" class="button alt">Book</a></li>
+				</ul>
+			</div>
+		{% endfor%}
+		</div>
+	</section>
+	<div class="row">
+	{% for service in site.data.alpha.services %}
+		<div class="col-4 col-12-narrower">
+			<section class="box special">
+				<span class="image featured"><img src="images/pic04.jpg" alt="" /></span>
+				<h3>{{ service.offer }}</h3>
+				<p>{{ service.description }}</p>
+				<!-- <div style="text-align:left;margin-left:10%;"> -->
+				<!-- <ul style="position: center;"> -->
+				<ul style="list-style-position: inside; text-align:left; margin-left:20%; margin-right:20%">
+					{% for option in service.options %}
+					<li>{{ option.duration }} minutes at {{ option.price }}</li>
+					{% endfor %}
+				</ul>
+				<!-- </div> -->
+				<hr/>
+				<ul class="actions special">
+					<li><a href="#" class="button alt">Book</a></li>
+				</ul>
+				</section>
+			</div>
+	{% endfor%}
+	</div>
+	<div class="row">
+		<div class="col-12">
+		<section class="box special">
+		<p>Something here</p>
+			{% for person in site.data.alpha.persons %}
+				<span><a href="#">{{ person.name }}</a></span>
+			{% endfor %}
+		</section>
+		</div>
+	</div>
 </section>
 
 <!-- CTA -->
