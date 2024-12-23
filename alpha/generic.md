@@ -2,6 +2,7 @@
 layout: "alpha"
 title: "Generic"
 ---
+
 <!-- Main -->
 <section id="main" class="container">
 	<header>

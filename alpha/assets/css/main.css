@@ -2931,7 +2931,8 @@
 	}
 
 	#header {
-		background: #444;
+		/* background: #444; */
+		background: 	#60232d;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3065,16 +3066,19 @@
 			-ms-animation: none;
 			animation: none;
 			background: none;
-			color: rgba(255, 255, 255, 0.75);
+			/*color: rgba(255, 255, 255, 0.75);*/
+			color: rgba(96, 35, 45, 0.75);
 			position: absolute;
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
-				color: rgba(255, 255, 255, 0.75);
+				/*color: rgba(255, 255, 255, 0.75);*/
+				color: rgba(96, 35, 45, 0.75);
 			}
 
 			#header.alt nav > ul > li.active a:not(.button) {
-				background-color: rgba(255, 255, 255, 0.2);
+				/*background-color: rgba(255, 255, 255, 0.2);*/
+				background-color: rgba(96, 35, 45, 0.75);
 			}
 
 			#header.alt input[type="submit"],
