@@ -3081,15 +3081,20 @@ body.landing #main {
 
 /* CTA */
 
-#cta {
+#cta, .cta {
     /* background: #e89980; */
     background: #c55a67;
     color: #f9e6df;
     padding: 3.5em 0 4em 0;
     text-align: center;
 }
+.cta {
+    margin-top: -2em;
+    margin-bottom: 4em;
+}
 
 #cta h2,
+.cta h2,
 #cta h3,
 #cta h4,
 #cta h5,

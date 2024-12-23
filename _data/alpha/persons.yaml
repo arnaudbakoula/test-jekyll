@@ -1,0 +1,73 @@
+- name: Lisa
+  catchphrase: Stunning Woman
+  description: She's elegant funny and knows how to please a man.
+  age: 32
+  weight: 45
+  height: 155
+  measurements: "34:24:36"
+  skills:
+    - A+
+    - CIM
+    - RIM
+    - Lesbians
+
+- name: Vava
+  catchphrase: Stunning Girl
+  description: She's elegant funny and knows how to please a man.
+  age: 26
+  weight: 50
+  height: 165
+  measurements: "36:28:34"
+  skills:
+    - CIM
+    - RIM
+    - BBJ
+
+- name: Nancy
+  catchphrase: Beautiful Girl
+  description: She's elegant funny and knows how to please a man.
+  age: 30
+  weight: 50
+  height: 160
+  measurements: "38:30:36"
+  skills:
+    - CIM
+    - RIM
+    - BBJ
+
+- name: Chomphu
+  catchphrase: Stunning Woman
+  description: Nice and lovely young lady
+  age: 25
+  weight: 45
+  height: 54
+  measurements: "34:25:36"
+  skills:
+    - CIM
+    - RIM
+    - BBJ
+
+- name: Apple
+  catchphrase: So Hot Woman
+  description: She's elegant funny and knows how to please a man.
+  age: 32
+  weight: 50 kg
+  height:  165 cm
+  measurements: "40:28:38"
+  skills:
+    - CIM
+    - RIM
+    - BBJ
+
+- name: Cherry
+  catchphrase: Beautiful and funny Girl
+  description: She's has a bubbly personality and always joking. She speaks a good conversational English.
+  age: 28
+  weight: 55
+  height: 159
+  measurements: "34:29:36"
+  skills:
+    - A+
+    - CIM
+    - RIM
+    - BBJ

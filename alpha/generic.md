@@ -5,10 +5,12 @@ title: "Generic"
 
 <!-- Main -->
 <section id="main" class="container">
+	<div class="box">
 	<header>
 		<h2>Generic</h2>
 		<p>A generic page for every non-generic situation.</p>
 	</header>
+	</div>
 	<div class="box">
 		<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
 		<h3>This is a subheading</h3>

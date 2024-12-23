@@ -68,17 +68,18 @@ header_class: "alt"
 	</div>
 	<section class="box special features">
 		<div class="features-row">
+			<h2>Section avec 4 encarts</h2>
+		</div>
+		<div class="features-row">
 		{% for service in site.data.alpha.services %}
 			<section>
 				<h3>{{ service.offer }}</h3>
 				<p>{{ service.description }}</p>
-				<!-- <div style="position: center"> -->
-				<ul style="list-style-position: inside; text-align:left; margin-left:30%; margin-right:30%">
+				<ul style="list-style-position: inside; text-align:left; margin-left:5%; margin-right:5%">
 					{% for option in service.options %}
 					<li>{{ option.duration }} minutes at {{ option.price }}</li>
 					{% endfor %}
 				</ul>
-				<!-- </div> -->
 				<hr/>
 				<ul class="actions special">
 					<li><a href="#" class="button alt">Book</a></li>
@@ -96,7 +97,7 @@ header_class: "alt"
 				<div style="text-align:left">
 				<ul>
 					{% for option in service.options %}
-					<li style="text-align:left">{{ option.duration }} minutes at {{ option.price }}</li>
+					<li style="list-style-position: inside; text-align:left; margin-left:5%; margin-right:5%">{{ option.duration }} minutes at {{ option.price }}</li>
 					{% endfor %}
 				</ul>
 				</div>
@@ -108,6 +109,12 @@ header_class: "alt"
 		{% endfor%}
 		</div>
 	</section>
+</section>
+<section class="cta">
+	<h2>Our Services</h2>
+	<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+</section>
+<section class="container">
 	<div class="row">
 	{% for service in site.data.alpha.services %}
 		<div class="col-4 col-12-narrower">
@@ -115,14 +122,11 @@ header_class: "alt"
 				<span class="image featured"><img src="images/pic04.jpg" alt="" /></span>
 				<h3>{{ service.offer }}</h3>
 				<p>{{ service.description }}</p>
-				<!-- <div style="text-align:left;margin-left:10%;"> -->
-				<!-- <ul style="position: center;"> -->
-				<ul style="list-style-position: inside; text-align:left; margin-left:20%; margin-right:20%">
+				<ul style="list-style-position: inside; text-align:left; margin-left:5%; margin-right:5%">
 					{% for option in service.options %}
 					<li>{{ option.duration }} minutes at {{ option.price }}</li>
 					{% endfor %}
 				</ul>
-				<!-- </div> -->
 				<hr/>
 				<ul class="actions special">
 					<li><a href="#" class="button alt">Book</a></li>
